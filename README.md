@@ -90,6 +90,19 @@ UE5-Drone-Swarm/
 ├── yolo_folder_watcher_single.py    # YOLO detection monitor
 ├── setup_libraries.bat              # Library configuration
 └── Drone.uproject                   # UE5 project file
+│   └── GridMapComponent          # 3D grid environment
+├── DroneActor/                    # Individual drone logic
+│   ├── AStarPathFinderComponent  # A* path planning
+│   ├── ObstacleScannerComponent  # Obstacle detection
+│   ├── PathModifierComponent     # Dynamic path adjustment
+│   └── DroneImageCaptureComponent # Image capture
+├── TankSplineController/          # Tank movement controller
+│   ├── TankSplineMovementComponent    # Spline following
+│   └── TankDetectionReceiverComponent # YOLO result receiver
+├── yolo_folder_watcher.py        # YOLO detection monitor
+├── setup_libraries.bat           # Library configuration
+└── Drone.uproject                # UE5 project file
+>>>>>>> 4996a123c6f702b5d93c9f1bf1e90400597f3efe
 ```
 
 ## Usage
@@ -352,3 +365,8 @@ For research collaboration and technical support, please contact the development
 ---
 
 **Note**: This is a research project. Please conduct thorough testing and validation before practical applications. The system is designed for simulation and research purposes and should not be used for actual drone operations without proper safety measures and regulatory compliance.
+=======
+
+
+**Note**: This is a research project. Please conduct thorough testing and validation before practical applications.
+>>>>>>> 4996a123c6f702b5d93c9f1bf1e90400597f3efe
